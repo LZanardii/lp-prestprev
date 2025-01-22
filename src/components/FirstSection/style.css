@@ -1,0 +1,17 @@
+.fistSection {
+  position: relative;
+  
+  .text{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  img {
+    width: 100%;
+  } 
+}
+
