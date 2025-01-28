@@ -1,17 +1,56 @@
 .fistSection {
   position: relative;
   
-  .text{
+  .content{
     position: absolute;
     z-index: 1;
     width: 100%;
+    justify-items: center;
 
-    display: flex;
-    justify-content: center;
+    .titleContent{
+      padding: 20px;
+      width: 700px;
+        
+      @media(max-width: 1000px){
+        width: 600px;
+      }
+
+      .title{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 290px;
+        text-align: center;
+
+        @media(max-width: 1000px){
+          height: 200px;
+        }
+        
+        >form{
+          padding: 20px;
+          display: flex;
+          width: 600px;
+          >button {
+            margin-left: 10px;
+            background-color: #2E53A4;
+            border-color: #2E53A4;
+          }
+          @media(max-width: 1000px){
+            width: 500px;
+          }
+        }
+      }
+    }
   }
 
-  img {
+  .backgroundImage {
     width: 100%;
+    height: 500px;
+
+    @media(max-width: 1000px){
+      height: 380px;
+    }
   } 
 }
-
