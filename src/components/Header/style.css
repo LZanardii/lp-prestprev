@@ -3,27 +3,24 @@
   background-color: rgba(255, 255, 255, 0.1) !important;
   padding: 10px 30px;
   border-radius: 1.5rem !important;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(7px);
   width: 820px;
 
-  @media(max-width: 1000px){
-    width: 729px;
-    margin-top: 30px;
-  }
-
-  .headerBox {
+  .desktop {
     display: flex;
     color: white;
-    >span {
-      margin-top: 22px;
+    
+    >h6 {
+      margin-top: 28px;
       margin-left: 25px;
       margin-right: 25px;
       cursor: pointer;
 
       @media(max-width: 1000px){
-        margin-top: 13px;
+        margin-top: 15px;
         margin-left: 20px;
         margin-right: 20px;
+        font-size: 15.5px;
       }
     }
     >img{
@@ -34,16 +31,12 @@
         width:100px;
         height: 50px;
       }
-
-      @media(max-width: 750px){
-        width:100px;
-        height: 50px;
-      }
     }
     >a{
-      margin-top: 15px;
+      margin-top: 20px;
       padding-top: 5px;
       height: 38px;
+      font-size: 13px;
 
       @media(max-width: 1000px){
         margin-top: 8px;
@@ -52,7 +45,75 @@
       }
     }
   }
-}
 
+  .mobile {
+    display: none;
+  }
+
+  @media(max-width: 1000px){
+    width: 729px;
+    margin-top: 30px;
+  }
+
+  @media(max-width: 750px){
+    width: 350px;
+    margin-top: 20px;
+  }
+
+  @media(max-width: 750px){
+    .desktop {display: none;}
+    .mobile {
+      display: flex;
+      justify-content: space-between;
+
+      .dropdown>button{
+        margin-top: 12px;
+        background: none;
+        border: none;
+        padding: 0px;
+      }
+
+      .dropdown:hover {
+        /* background: #aaaa;
+        transform: scale(1); */
+        border-radius: .6rem !important;
+      }
+
+      .dropdown>button:hover{
+        padding: 0px;
+      }
+
+      .show.dropdown > div { 
+        /* background: ; */
+      }
+      /* TODO-> MUDAR COR DE FUNDO DO DROPDOWN*/
+
+
+      >img {
+        width: 100px;
+        border-radius: .5rem !important;
+      }
+
+      >a{
+        margin-top: 8px;
+        padding-top: 5px;
+        height: 34px;
+
+        background: none;
+        border: none;
+      }
+
+      >a:hover{
+        background: #157347;
+      }
+    }
+  }
+
+ 
+
+  
+
+  
+}
 
 

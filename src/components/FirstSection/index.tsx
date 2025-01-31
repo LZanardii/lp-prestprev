@@ -39,7 +39,7 @@ const FirstSection = () => {
         </div>
        
       </div>
-      <img className="backgroundImage" src="src/assets/lp-prestprev-home.png" alt="carteiras de trabalho na mesa"/>
+      <img className="backgroundImage" src="src/assets/first-section-background.png" alt="carteiras de trabalho na mesa"/>
     </div>
   )
 }
