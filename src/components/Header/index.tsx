@@ -1,13 +1,14 @@
 import { Button, Dropdown } from "react-bootstrap";
 import { SiWhatsapp } from "react-icons/si";
 import { HiMenu } from "react-icons/hi";
+import imgLogo from "../../assets/prestprev-logo-fundo-azul.png"
 import "./style.css"
 
 const Header = () => {
   return (
     <div className="header">
       <div className="desktop">
-        <img src="src/assets/prestPrevLogoComFundo.png" alt="logo prestprev"/>
+        <img src={imgLogo} alt="logo prestprev"/>
         <h6>Serviços</h6>
         <h6>Sobre</h6>
         <h6>Depoimentos</h6>
@@ -15,7 +16,7 @@ const Header = () => {
         <Button 
           variant="success"  
           size="sm"
-          href="https://wa.me/send/?phone=555185816550&text=Olá+Matheus!%20Pode+me+ajudar?"
+          href="https://wa.me/5551985816550?text=Ol%C3%A1%20Matheus!%20Pode%20me%20ajudar%3F"
           target="_blank"
         >
           <SiWhatsapp size='16'/>
@@ -36,12 +37,12 @@ const Header = () => {
             <Dropdown.Item href="#/action-3">Contato</Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
-        <img src="src/assets/prestPrevLogoComFundo.png" alt="logo prestprev"/>
+        <img src={imgLogo} alt="logo prestprev"/>
 
         <Button 
           variant="success"  
           size="sm"
-          href="https://wa.me/send/?phone=555185816550&text=Olá+Matheus!%20Pode+me+ajudar?"
+          href="https://wa.me/5551985816550?text=Ol%C3%A1%20Matheus!%20Pode%20me%20ajudar%3F"
           target="_blank"
         >
           <SiWhatsapp size={25}/>

@@ -1,8 +1,8 @@
-
 import { Button, Form } from "react-bootstrap";
 import Header from "../Header"
 import "./style.css"
 import { useState } from "react";
+import imgBackground from "../../assets/first-section-background.png"
 
 const FirstSection = () => {
 
@@ -11,7 +11,7 @@ const FirstSection = () => {
   const direcionaPerguntaParaWhatsapp = () => {
     // Codifica a pergunta para ser utilizada na URL
     const encodedPergunta = encodeURIComponent(inputPergunta);
-    const url = `https://wa.me/send/?phone=555185816550&text=${encodedPergunta}`;
+    const url = `https://wa.me/5551985816550?text=${encodedPergunta}`;
     
     // Abre a URL em uma nova aba
     window.open(url, "_blank", "noreferrer");
@@ -39,7 +39,7 @@ const FirstSection = () => {
         </div>
        
       </div>
-      <img className="backgroundImage" src="src/assets/first-section-background.png" alt="carteiras de trabalho na mesa"/>
+      <img className="backgroundImage" src={imgBackground} alt="carteiras de trabalho na mesa"/>
     </div>
   )
 }
