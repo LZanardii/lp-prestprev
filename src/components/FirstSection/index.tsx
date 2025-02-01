@@ -27,11 +27,11 @@ const FirstSection = () => {
               A garantia dos seus benefícios é <br/>  um direito seu como cidadão!
             </h1>
             <h6>
-              A PrestPrev é o escritório especializado em processos previdenciários <br/> que preza facilitar a sua busca pelos seus direitos como cidadão
+              A PrestPrev é o escritório especializado em processos previdenciários que preza facilitar a sua busca pelos seus direitos como cidadão
             </h6>
             <Form>
-              <Form.Control type="text" placeholder="Como podemos te ajudar?" onChange={e => setInputPergunta(e.target.value)} />
-              <Button variant="primary" type="submit" onClick={() => direcionaPerguntaParaWhatsapp()}>
+              <Form.Control type="text" placeholder="Como podemos te ajudar?" size="sm" onChange={e => setInputPergunta(e.target.value)} />
+              <Button variant="primary" size="sm" type="submit" onClick={() => direcionaPerguntaParaWhatsapp()}>
                 Enviar
               </Button>
             </Form>

@@ -60,6 +60,13 @@
     margin-top: 20px;
   }
 
+
+  @media(max-width: 420px){
+    width: 250px;
+    padding: 10px 15px;
+    margin-top: 20px;
+  }
+
   @media(max-width: 750px){
     .desktop {display: none;}
     .mobile {
@@ -73,20 +80,13 @@
         padding: 0px;
       }
 
-      .dropdown:hover {
-        /* background: #aaaa;
-        transform: scale(1); */
-        border-radius: .6rem !important;
-      }
-
       .dropdown>button:hover{
         padding: 0px;
       }
 
       .show.dropdown > div { 
         /* background: ; */
-      }
-      /* TODO-> MUDAR COR DE FUNDO DO DROPDOWN*/
+      }/* TODO-> MUDAR COR DE FUNDO DO DROPDOWN*/
 
 
       >img {
@@ -108,12 +108,6 @@
       }
     }
   }
-
- 
-
-  
-
-  
 }
 
 
