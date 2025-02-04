@@ -24,7 +24,7 @@ const FirstSection = () => {
         <div className="titleContent">
           <div className="title">
             <h1>
-              A garantia dos seus benefícios é <br/>  um direito seu como cidadão!
+              A garantia dos seus benefícios é um direito seu como cidadão!
             </h1>
             <h6>
               A PrestPrev é o escritório especializado em processos previdenciários que preza facilitar a sua busca pelos seus direitos como cidadão

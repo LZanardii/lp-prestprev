@@ -4,7 +4,7 @@
   padding: 10px 30px;
   border-radius: 1.5rem !important;
   backdrop-filter: blur(7px);
-  width: 820px;
+  max-width: 840px;
 
   .desktop {
     display: flex;
@@ -56,15 +56,21 @@
   }
 
   @media(max-width: 750px){
-    width: 350px;
-    margin-top: 20px;
+    width: 410px;
+  }
+
+  @media(max-width: 490px){
+    width: 390px;
   }
 
 
   @media(max-width: 420px){
-    width: 250px;
-    padding: 10px 15px;
-    margin-top: 20px;
+    width: 320px;
+  }
+  
+
+  @media(max-width: 360px){
+    width: 270px;
   }
 
   @media(max-width: 750px){
