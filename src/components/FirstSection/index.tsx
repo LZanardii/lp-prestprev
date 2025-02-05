@@ -26,9 +26,9 @@ const FirstSection = () => {
             <h1>
               A garantia dos seus benefícios é um direito seu como cidadão!
             </h1>
-            <h6>
+            <h5>
               A PrestPrev é o escritório especializado em processos previdenciários que preza facilitar a sua busca pelos seus direitos como cidadão
-            </h6>
+            </h5>
             <Form>
               <Form.Control type="text" placeholder="Como podemos te ajudar?" size="sm" onChange={e => setInputPergunta(e.target.value)} />
               <Button variant="primary" size="sm" type="submit" onClick={() => direcionaPerguntaParaWhatsapp()}>

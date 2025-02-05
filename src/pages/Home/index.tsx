@@ -1,12 +1,11 @@
 import FirstSection from "src/components/FirstSection"
-import { Button } from 'react-bootstrap';
+import Servicos from "src/components/Servicos";
 
 const Home = () => {
   return (
     <>
       <FirstSection></FirstSection>
-      <Button>Bootstrap</Button>
-      <Button variant="success"  size="sm">Entrar em contato</Button>
+      <Servicos></Servicos>
     </>
   )
 }
