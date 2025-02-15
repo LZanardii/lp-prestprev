@@ -1,10 +1,10 @@
 import { Button, Form } from "react-bootstrap";
-import Header from "../Header"
+import Cabecalho from "../Cabecalho"
 import "./style.css"
 import { useState } from "react";
 import imgBackground from "../../assets/first-section-background.png"
 
-const FirstSection = () => {
+const PrimeiraSessao = () => {
 
   const [inputPergunta, setInputPergunta] = useState<string>("");
 
@@ -18,9 +18,9 @@ const FirstSection = () => {
   };
 
   return (
-    <div className='fistSection'>
+    <div className='primeiraSessao'>
       <div className="content">
-        <Header/>
+        <Cabecalho/>
         <div className="titleContent">
           <div className="title">
             <h1>
@@ -44,4 +44,4 @@ const FirstSection = () => {
   )
 }
 
-export default FirstSection;
+export default PrimeiraSessao;

@@ -4,7 +4,7 @@ import { HiMenu } from "react-icons/hi";
 import imgLogo from "../../assets/prestprev-logo-fundo-azul.png"
 import "./style.css"
 
-const Header = () => {
+const Cabecalho = () => {
   return (
     <div className="header">
       <div className="desktop">
@@ -52,4 +52,4 @@ const Header = () => {
   )
 }
 
-export default Header;
+export default Cabecalho;

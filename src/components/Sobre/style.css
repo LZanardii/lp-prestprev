@@ -1,0 +1,132 @@
+.sobre {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .card{
+        border-radius: 1rem;
+        width: 70%;
+        height: 550px;
+        display: flex;
+        justify-content: center;
+        background-color: #071E54;
+
+        padding: 50px;
+
+        @media(max-width: 1200px){
+            width: 90%;
+        }
+
+        @media(max-width: 880px){
+            width: 100%;
+            border-radius: 0px;
+        }
+
+        @media(max-width: 730px){
+            height: 590px;
+            padding: 20px 0px;
+
+            @media(max-width: 600px){
+                height: 650px;
+            }
+            @media(max-width: 380px){
+                height: 720px;
+            }
+            @media(max-width: 340px){
+                height: 770px;
+            }
+            @media(max-width: 320px){
+                height: 600px;
+            }
+
+            .text{
+                display: none !important;
+            }
+
+            .textMobile{
+                display: flex!important;
+                flex-direction: column;
+                padding: 0px 35px;
+                >h1{
+                    color: #ffffff;
+                    font-size: 40px;
+                    padding-bottom: 10px;
+                    @media(max-width: 500px){
+                        font-size: 35px;
+                    }
+                    @media(max-width: 460px){
+                        font-size: 27px;
+                    }
+                    @media(max-width: 320px){
+                        font-size: 22px;
+                    }
+                }
+                >p{
+                    color: #ffffff;
+                    @media(max-width: 460px){
+                        font-size: 15px;
+                    }
+                    @media(max-width: 320px){
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+
+        .textMobile{
+            display: none;
+        }
+
+        .text{
+            display: flex;
+            flex-direction: column;
+            >h1{
+                color: #ffffff;
+                padding-bottom: 20px;
+                font-size: 40px;
+                @media(max-width: 940px){
+                    font-size: 35px;
+                }
+            } 
+            >p{
+                color: #ffffff;
+                font-size: 19px;
+                @media(max-width: 940px){
+                    font-size: 17px;
+                }
+            }
+        }
+        
+        .buttonSaberMais {
+            background-color: #2E53A4;
+            border-color: #2E53A4;
+            width: 400px;
+            margin-top: 15px;
+            font-size: 18px;
+
+            @media(max-width: 880px){
+                width: 250px;
+            }
+
+            @media(max-width: 350px){
+                width: 210px;
+                font-size: 12px;
+            }
+        }
+    }    
+}
+
+div>div>div.modal-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .imagem{
+        height: 250px !important;
+        width: 200px;
+        margin-top: 30px;
+        margin-bottom: 40px;
+        border-radius: 1rem;
+    }
+}
+
