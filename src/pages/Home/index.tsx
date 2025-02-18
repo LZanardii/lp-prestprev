@@ -6,10 +6,10 @@ import Sobre from "src/components/Sobre";
 const Home = () => {
   return (
     <>
-      <PrimeiraSessao></PrimeiraSessao>
-      <Servicos></Servicos>
-      <Sobre></Sobre>
-      <Contato></Contato>
+      <PrimeiraSessao />
+      <Servicos />
+      <Sobre />
+      <Contato />
     </>
   )
 }

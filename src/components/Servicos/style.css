@@ -2,13 +2,14 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    padding: 80px 40px;
+    padding: 80px 60px;
 
     .content{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 850px;
+        width: 1050px;
+        
     
         .text {
             max-width: 340px;
@@ -41,9 +42,16 @@
             height: 450px;
             border-radius: 0.8rem;
         }
+
+        @media(max-width: 1530px){
+            width: 900px;
+            >img{
+                height: 400px;
+            }
+        }
     
         @media(max-width: 1000px){
-            width: 700px;
+            width: 800px;
             >img{
                 height: 400px;
             }
