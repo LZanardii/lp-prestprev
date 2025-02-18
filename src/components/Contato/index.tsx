@@ -12,7 +12,7 @@ const Contato = () => {
     <>
       <Card.Body className="localizacaoCard">
         <Card.Title><SiGooglemaps style={{marginRight:8}}/>Canoas, RS</Card.Title>
-        <Card.Subtitle>Av. 17 de Abril,  número 1010 - Guajuviras</Card.Subtitle>
+        <Card.Subtitle>Av. 17 de Abril, Setor 2, Quadra CC nº 13, apartamento 04 - Guajuviras</Card.Subtitle>
       </Card.Body>
     </>
   )
@@ -30,7 +30,7 @@ const Contato = () => {
 
   return (
     <div className="contato">
-      <div className="desktopContent">
+      <div className="content">
         <h1>Entre em Contato</h1>
         <div className="cards">
           <Card>

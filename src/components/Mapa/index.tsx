@@ -3,12 +3,12 @@ import 'leaflet/dist/leaflet.css';
 import './style.css';
 
 function Mapa() {
-  const position = [-29.89692650729965, -51.13735610389864];
+  const position = [-29.899695892708916, -51.13831777574388];
 
   return (
     <MapContainer
       center={position}
-      zoom={16}
+      zoom={17}
       scrollWheelZoom={true}
       className="map-container"
     >

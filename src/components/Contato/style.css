@@ -5,9 +5,10 @@
     justify-content: center;
     align-items: center;
 
-    margin: 50px 0px;
+    margin-top: 50px;
+    margin-bottom: 100px;
 
-    .desktopContent{
+    .content{
         text-align: center;
         width: 85%;
         max-width: 1100px;
@@ -38,7 +39,7 @@
         }
 
         .localizacaoCard {
-            height: 200px;
+            height: 300px;
             justify-content: center;
             display: flex;
             flex-direction: column;
