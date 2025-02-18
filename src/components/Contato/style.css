@@ -21,6 +21,7 @@
             margin: 35px 0px;
         }
 
+        
         @media(max-width: 590px){
             .cards {
                 display: flex;
