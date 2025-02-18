@@ -37,7 +37,7 @@ const Contato = () => {
             <Card.Body>
               <Card.Title><FaPhoneAlt size={18}/> Telefone</Card.Title>
               <Card.Text>
-                (51) 98581-6745
+                (51) 98581-6550
               </Card.Text>
             </Card.Body>
           </Card>
