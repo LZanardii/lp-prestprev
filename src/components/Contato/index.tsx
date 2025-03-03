@@ -1,7 +1,6 @@
 import { Card, Nav } from "react-bootstrap";
 import "./style.css"
 import { useState } from "react";
-import Mapa from "../Mapa";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdMarkEmailUnread } from "react-icons/md";
 import { SiGooglemaps } from "react-icons/si";
@@ -20,7 +19,7 @@ const Contato = () => {
 
   const mapaContent = () => (
     <>
-      <Mapa />
+      <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1729.3862692135663!2d-51.139460043413074!3d-29.899654079466366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjnCsDUzJzU4LjgiUyA1McKwMDgnMTguMiJX!5e0!3m2!1spt-BR!2sbr!4v1741031154844!5m2!1spt-BR!2sbr" ></iframe>
     </>
   )
 
