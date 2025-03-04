@@ -3,16 +3,18 @@ import { SiWhatsapp } from "react-icons/si";
 import { HiMenu } from "react-icons/hi";
 import imgLogo from "../../assets/prestprev-logo-fundo-azul.png"
 import "./style.css"
+import { ROUTES } from "src/constants";
+import { navigate } from "src/utils/navigate";
 
 const Cabecalho = () => {
   return (
     <div className="header">
       <div className="desktop">
-        <img src={imgLogo} alt="logo prestprev"/>
-        <h6>Serviços</h6>
-        <h6>Sobre</h6>
-        <h6>Depoimentos</h6>
-        <h6>Contato</h6>
+        <img src={imgLogo}  onClick={() => navigate(ROUTES.HOME)} alt="logo prestprev"/>
+        <h6 onClick={() => navigate(ROUTES.SERVICO)} >Serviços</h6>
+        <h6 onClick={() => navigate(ROUTES.SOBRE)}>Sobre</h6>
+        <h6 onClick={() => navigate(ROUTES.DEPOIMENTO)}>Depoimentos</h6>
+        <h6 onClick={() => navigate(ROUTES.CONTATO)}>Contato</h6>
         <Button 
           variant="success"  
           size="sm"
@@ -31,13 +33,13 @@ const Cabecalho = () => {
           </Dropdown.Toggle>
 
           <Dropdown.Menu>
-            <Dropdown.Item href="#/action-1">Serviços</Dropdown.Item>
-            <Dropdown.Item href="#/action-2">Sobre</Dropdown.Item>
-            <Dropdown.Item href="#/action-3">Depoimentos</Dropdown.Item>
-            <Dropdown.Item href="#/action-3">Contato</Dropdown.Item>
+            <Dropdown.Item href={ROUTES.SERVICO}>Serviços</Dropdown.Item>
+            <Dropdown.Item href={ROUTES.SOBRE}>Sobre</Dropdown.Item>
+            <Dropdown.Item href={ROUTES.DEPOIMENTO}>Depoimentos</Dropdown.Item>
+            <Dropdown.Item href={ROUTES.CONTATO}>Contato</Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
-        <img src={imgLogo} alt="logo prestprev"/>
+        <img src={imgLogo} onClick={() => navigate(ROUTES.HOME)} alt="logo prestprev"/>
 
         <Button 
           variant="success"  

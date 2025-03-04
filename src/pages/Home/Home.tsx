@@ -1,14 +1,14 @@
 import Contato from "src/components/Contato";
 import PrimeiraSessao from "src/components/PrimeiraSessao"
 import Rodape from "src/components/Rodape";
-import Servicos from "src/components/Servicos";
+import Servico from "src/components/Servico";
 import Sobre from "src/components/Sobre";
 
 const Home = () => {
   return (
     <>
-      <PrimeiraSessao />
-      <Servicos />
+      <PrimeiraSessao/>
+      <Servico />
       <Sobre />
       <Contato />
       <Rodape />

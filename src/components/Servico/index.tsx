@@ -5,7 +5,7 @@ import { FaWheelchair } from "react-icons/fa";
 import { RiAlertFill } from "react-icons/ri";
 import { CiPill } from "react-icons/ci";
 
-const Servicos = () => {
+const Servico = () => {
   return (
     <div className="servicos">
       <div className="content">
@@ -54,4 +54,4 @@ const Servicos = () => {
   )
 }
 
-export default Servicos;
+export default Servico;
