@@ -20,7 +20,7 @@ const Cabecalho = () => {
           target="_blank"
         >
           <SiWhatsapp size='16'/>
-          &nbsp;&nbsp;Entrar em contato!&nbsp;
+          <span> &nbsp;&nbsp;Entrar em contato!&nbsp;</span>
         </Button>
       </div>
 

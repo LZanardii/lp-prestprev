@@ -1,6 +1,6 @@
 .primeiraSessao {
   position: relative;
-  
+
   .content{
     display: flex;
     flex-direction: column;
@@ -8,14 +8,15 @@
     position: absolute;
     z-index: 1;
     width: 100%;
-   
 
     .titleContent{
-      padding: 20px;
+
+      padding: 150px 20px 20px 20px;
       width: 700px;
         
       @media(max-width: 1000px){
         width: 600px;
+        padding: 130px 20px 20px 20px;
       }
 
       @media(max-width: 750px){
@@ -28,12 +29,12 @@
 
       @media(max-width: 420px){
         width: 340px;
-        padding: 10px;
+        padding: 110px 20px 20px 20px;
       }
 
       @media(max-width: 360px){
         width: 270px;
-        padding: 10px;
+        padding: 110px 10px 10px 10px;
       }
 
       .title{
