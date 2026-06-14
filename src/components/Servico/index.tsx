@@ -44,7 +44,7 @@ const Servico = () => {
           <div className="textWithImage">
             <MdOutlinePregnantWoman size={30}/>
             <h5>
-              Auxílio Maternidade
+              Salário Maternidade
             </h5>
           </div>
         </div>

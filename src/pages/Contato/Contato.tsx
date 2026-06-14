@@ -1,19 +1,17 @@
 import Contato from "src/components/Contato";
-import PrimeiraSessao from "src/components/PrimeiraSessao"
+import PrimeiraSessao from "src/components/PrimeiraSessao";
 import Rodape from "src/components/Rodape";
-import Servico from "src/components/Servico";
-import Sobre from "src/components/Sobre";
 
-const Home = () => {
+const ContatoPage = () => {
   return (
     <>
-      <PrimeiraSessao />
-      <Servico />
-      <Sobre />
-      <Contato />
-      <Rodape />
+      <PrimeiraSessao showTitleContent={false}/>
+      <div style={{paddingTop: `110px`}}></div>
+        <Contato />
+        <Rodape />
+      <div/>
     </>
   )
 }
 
-export default Home;
+export default ContatoPage;

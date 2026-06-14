@@ -1,11 +1,13 @@
 import EmContrucao from "src/components/EmContrucao";
+import PrimeiraSessao from "src/components/PrimeiraSessao";
 
-const Depoimento = () => {
+const DepoimentoPage = () => {
   return (
     <>
+      <PrimeiraSessao showTitleContent={false}/>
       <EmContrucao/>
     </>
   )
 }
 
-export default Depoimento;
+export default DepoimentoPage;

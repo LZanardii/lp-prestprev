@@ -1,7 +1,5 @@
-import { Breadcrumb, Button, Card, Spinner } from "react-bootstrap";
+import { Card, Spinner } from "react-bootstrap";
 import "./style.css"
-import { navigate } from "src/utils/navigate";
-import { ROUTES } from "src/constants";
 
 const EmContrucao = () => {
   return (
@@ -10,13 +8,11 @@ const EmContrucao = () => {
         <div>
           <h5>Pagina em desenvolvimento...</h5>
         </div>
-        
         <Card.Text>
           <Spinner animation="border" />
         </Card.Text>
-        <Button variant="primary" onClick={() => navigate(ROUTES.HOME)}>Voltar para pagina principal</Button>
+        <div style={{marginBottom:`5px`}}/>
       </Card>
-    
     </div>
   )
 }

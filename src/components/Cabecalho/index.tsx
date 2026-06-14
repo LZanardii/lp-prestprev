@@ -12,7 +12,7 @@ const Cabecalho = () => {
       <div className="desktop">
         <img src={imgLogo}  onClick={() => navigate(ROUTES.HOME)} alt="logo prestprev"/>
         <h6 onClick={() => navigate(ROUTES.SERVICO)} >Serviços</h6>
-        <h6 onClick={() => navigate(ROUTES.SOBRE)}>Sobre</h6>
+        {/* <h6 onClick={() => navigate(ROUTES.SOBRE)}>Sobre</h6> */}
         <h6 onClick={() => navigate(ROUTES.DEPOIMENTO)}>Depoimentos</h6>
         <h6 onClick={() => navigate(ROUTES.CONTATO)}>Contato</h6>
         <Button 

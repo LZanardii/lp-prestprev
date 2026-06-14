@@ -4,10 +4,10 @@ import Rodape from "src/components/Rodape";
 import Servico from "src/components/Servico";
 import Sobre from "src/components/Sobre";
 
-const Home = () => {
+const HomePage = () => {
   return (
     <>
-      <PrimeiraSessao/>
+      <PrimeiraSessao showTitleContent={true}/>
       <Servico />
       <Sobre />
       <Contato />
@@ -16,4 +16,4 @@ const Home = () => {
   )
 }
 
-export default Home;
+export default HomePage;
