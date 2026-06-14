@@ -12,7 +12,6 @@ const Cabecalho = () => {
       <div className="desktop">
         <img src={imgLogo}  onClick={() => navigate(ROUTES.HOME)} alt="logo prestprev"/>
         <h6 onClick={() => navigate(ROUTES.SERVICO)} >Serviços</h6>
-        {/* <h6 onClick={() => navigate(ROUTES.SOBRE)}>Sobre</h6> */}
         <h6 onClick={() => navigate(ROUTES.DEPOIMENTO)}>Depoimentos</h6>
         <h6 onClick={() => navigate(ROUTES.CONTATO)}>Contato</h6>
         <Button 
@@ -34,7 +33,6 @@ const Cabecalho = () => {
 
           <Dropdown.Menu>
             <Dropdown.Item href={ROUTES.SERVICO}>Serviços</Dropdown.Item>
-            <Dropdown.Item href={ROUTES.SOBRE}>Sobre</Dropdown.Item>
             <Dropdown.Item href={ROUTES.DEPOIMENTO}>Depoimentos</Dropdown.Item>
             <Dropdown.Item href={ROUTES.CONTATO}>Contato</Dropdown.Item>
           </Dropdown.Menu>
